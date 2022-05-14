@@ -8,7 +8,7 @@ const Navbar = ({ children }) => {
                 <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-content flex flex-col">
                     {/* Navbar */}
-                    <div className="w-full navbar bg-base-100">
+                    <div className="container mx-auto sticky navbar bg-base-100">
                         <div className="flex-1 px-2 mx-2 font-serif text-2xl italic font-extrabold">Cleaning Infinity</div>
                         <div className="flex-none lg:hidden">
                             <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
